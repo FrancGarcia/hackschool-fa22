@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mainTitleAnimation.css">
+    <link rel="stylesheet" href="cards.css">
+    <!-- <link rel="stylesheet" href="navbar.css"> -->
+</head>
+<body>
+    <div>
+        <h1>
+            <span>f</span>
+            <span>i</span>
+            <span>n</span>
+            <span>a</span>
+            <span>n</span>
+            <span>c</span>
+            <span>e</span>
+            <br>
+            <span>b</span>
+            <span>u</span>
+            <span>d</span>
+            <span>d</span>
+            <span>y</span>
+        </h1>
+
+        <!-- <div id="navbar">
+            <a style="text-decoration: none" href="">SIGN IN</a>
+            <a style="text-decoration: none" href="">LOG OUT</a>
+        </div> -->
+    </div>
+
+    <!-- <div class="container">
+        <ul>
+            <li class="active">Home</li>
+            <li>About</li>
+            <li>Settings</li>
+            <li>Log In</li>
+            <li>Sign Out</li>
+        </ul>
+    </div>
+
+    <script>
+        const items = document.querySelecterAll("ul li");
+        items.forEach((item) => {
+            item.addEventListener("click", () => {
+                document.querySelector("li.active").classList.remove("active")
+                ;
+                item.classList.add("active");
+            });
+        });
+    </script> -->
+    <header>
+        <div class="logo">
+            <a href="#"><img src = "financeBuddyLogo.png" width="60" height="60"></a>
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="">Sign In</a>
+                </li>
+                <li>
+                    <a href="">Log Out</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+    <div class="intro">
+        <h2>Welcome to Finance Buddy, your virtual financial planner!</h2>
+        <p>Finance Buddy is an online, financial planner that allows you to purchase new items, 
+            plan future purchases, view all purcahses, and help you plan your basic financial needs.
+            With the help of Finance Buddy, you will be able to purchase your wants and necessities in no time!
+        </p>
+    </div>
+
+    <section class="container">
+        <div class="card">
+            <div class="card-image card1"></div>
+            <h2 style="text-align:center">Purchasing</h2>
+            <p style="text-align:center">Manage your shopping cart by adding new purchases.</p>
+            <a href="">Add New Purchase</a>
+        </div>
+        <div class="card">
+            <div class="card-image card2"></div>
+            <h2 style="text-align:center">All Your Purchases</h2>
+            <p style="text-align:center">Want to view all the purchases you have made?</p>
+            <a href="">View All Purchases</a>
+        </div>
+        <div class="card">
+            <div class="card-image card3"></div>
+            <h2 style="text-align:center">Your Finances</h2>
+            <p style="text-align:center">Manage your finances, adjust budgets, and view your financial history.</p>
+            <a href="">Manage Finances</a>
+        </div>
+    </section>
+</body>
+</html>
